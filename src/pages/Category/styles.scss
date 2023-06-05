@@ -1,0 +1,63 @@
+$headColor: #4166e1;
+
+tr {
+  height: 10px;
+  height: auto !important;
+}
+
+
+.d-flex {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+td,
+th {
+  border: 1px solid rgba(224, 224, 224, 1);
+  height: 40px !important;
+}
+
+.MuiTableHead-root {
+  background-color: $headColor;
+
+  th {
+    padding: 16px;
+  }
+
+  span {
+    color: white;
+  }
+
+  path {
+    color: white
+  }
+
+  span:hover {
+    color: white;
+  }
+
+  .css-1qgma8u-MuiButtonBase-root-MuiTableSortLabel-root.Mui-active {
+    color: white;
+  }
+
+}
+
+.percentage {
+  fill: #666;
+  font-size: 1rem !important;
+  text-anchor: middle !important;
+  font-weight: 700 !important;
+}
+
+// .MuiTableRow-hover {
+//   background-color: #6f707814 !important;
+// }
+.Mui-selected {
+  background-color: #6f707814 !important;
+}
+
+
+.css-1ex1afd-MuiTableCell-root {
+  padding: 0px 16px !important;
+}
